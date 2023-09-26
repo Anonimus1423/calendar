@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<!-- Document Head Starts -->
+	@@include('html/components/head.html',
+	{
+		"title": "Главная",
+		"icon_image": "@img/site_icon/favicon.png",
+		"icon_image_type": "png"
+	})
+	<!-- Document Head Ends -->
+
+	<body>
+		<!-- Main Site Content Starts -->
+		<main>
+			<section class="calendar">
+				<div class="calendar__container">
+					<div class="calendar__inputs">
+						<div class="calendar__first-input calendar__input">
+							<p>От</p>
+							<input type="text">
+						</div>
+						<div class="calendar__last-input calendar__input">
+							<p>До</p>
+							<input type="text">
+						</div>
+					</div>	
+					<div class="calendars">
+						<div class="calendar calendar-1">
+							<div class="year"><p>2022</p></div>
+							<div class="month"><p>Октябь</p></div>
+							<ul class="weekday-names">
+								<li>Пн</li>
+								<li>Вт</li>
+								<li>Ср</li>
+								<li>Чт</li>
+								<li>Пт</li>
+								<li>Сб</li>
+								<li>Вс</li>
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Main Site Content Ends -->
+		<script defer src="js/app.min.js"></script>
+	</body>
+</html>

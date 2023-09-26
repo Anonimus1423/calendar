@@ -1,0 +1,52 @@
+section.calendar
+{
+    background-color: #F4F4F4;
+    .calendar__container
+    {
+        padding: 20px 0;
+        width: 90%;
+        margin: 0 auto;
+        .calendar__inputs
+        {
+            display: flex;
+            align-items: center;
+            .calendar__input
+            {
+                position: relative;
+                p
+                {
+                    position: absolute;
+                    left: 11px;
+                    top: 50%;
+                    color: #7F7432;
+                    transform: translateY(-50%);
+                }
+                input
+                {
+                    background-color: transparent;
+                    border: 1px solid #E8E3C4;
+                    font-size: 16px;
+                    padding: 16px 10px;
+                    padding-left: 40px;
+                    width: 236px;
+                    box-sizing: border-box;
+                }
+            }
+            .calendar__first-input
+            {
+                input
+                {
+                    border-radius: 4px 0 0 4px;
+                    border-right: none;
+                }
+            }
+            .calendar__last-input
+            {
+                input
+                {
+                    border-radius: 0px 4px 4px 0px;
+                }
+            }
+        }
+    }
+}
